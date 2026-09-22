@@ -1,9 +1,8 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
 
-# Virtual environment
+# Virtual environments
 venv/
 .venv/
 env/
@@ -14,10 +13,8 @@ env/
 # Datasets
 data/raw/*
 data/processed/*
-*.csv
-*.json
 
-# Models
+# Trained models
 *.h5
 *.keras
 *.pth
@@ -25,13 +22,13 @@ data/processed/*
 *.pkl
 *.joblib
 
-# Generated results
-results/models/
-
-# OS
-.DS_Store
-Thumbs.db
+# Generated model outputs
+results/models/*
 
 # IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
